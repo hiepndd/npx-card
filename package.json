@@ -1,6 +1,6 @@
 {
   "name": "hiepndd",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A personal card for Hiep Nguyen (@hiepndd)",
   "main": "bin/card.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "npx",
     "npx card",
     "business card",
-    "trongthanh"
+    "hiepndd"
   ],
   "repository": {
     "type": "git",
