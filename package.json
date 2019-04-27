@@ -1,6 +1,6 @@
 {
   "name": "hiepndd",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A personal card for Hiep Nguyen (@hiepndd)",
   "main": "bin/card.js",
   "bin": {
