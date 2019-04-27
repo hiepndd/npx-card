@@ -1,9 +1,16 @@
 {
   "name": "hiepndd",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "A personal card for Hiep Nguyen (@hiepndd)",
   "main": "bin/card.js",
+  "bin": {
+    "hiepndd": "./bin/card.js"
+  },
   "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,8 +26,8 @@
     "type": "git",
     "url": "https://github.com/hiepndd/npx-card.git"
   },
-  "author": "hiepndd",
-  "license": "ISC",
+  "author": "Hiep Nguyen",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hiepndd/npx-card/issues"
   },
